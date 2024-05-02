@@ -9,7 +9,7 @@ driver = webdriver.Chrome()
 driver.get("https://clickcounter.io")
 
 # Find the counter element
-counter_element = driver.find_element(By.ID, "currentValue")
+counter_element = driver.find_element(By.ID, "counterResult1")
 
 # Record the start time
 start_time = time.time()
